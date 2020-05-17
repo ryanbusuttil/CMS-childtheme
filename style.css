@@ -86,4 +86,18 @@ Template: storefront
 	h2.woocommerce-loop-product__title,
 	.product .related h2 {
 		font-size: 19px !important;
-		color: #000; /* change color of product titles */	}	
+		color: #000; /* change color of product titles */	}
+	
+	/*** MAKE PRICES BIGGER ON GRID AND RELATED PRODUCTS ***/
+	.woocommerce ul.products li.product .price, 
+	.woocommerce ul.products li.product .price del, 
+	.woocommerce-page ul.products li.product .price, 
+	.woocommerce-page ul.products li.product .price del {
+		font-size: 18px;	}	
+	
+	span.woocommerce-Price-amount.amount {
+	color: black; /* this changes price color on all Woo areas */ }
+
+	/* changed footer header color */
+	.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6, .site-footer .widget .widget-title, .site-footer .widget .widgettitle {
+    color: white;	}
