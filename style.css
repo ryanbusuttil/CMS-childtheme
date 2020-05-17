@@ -39,3 +39,14 @@ Template: storefront
 		line-height: 1;
 	}
 	
+	/* places the search box to the left of the cart menu(optional)*/
+	.woocommerce-active .site-header .site-search {
+		float: left;
+	}
+	/* changed colour of main menu hover to purple */
+	.main-navigation ul li a:hover {
+      color: #4344ba; }
+	 
+	/* changed colour of menu 2 hover to purple */
+	.secondary-navigation ul.menu a:hover {
+		color: #4344ba; }
