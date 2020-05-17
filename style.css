@@ -26,3 +26,16 @@ Template: storefront
 	.woocommerce-active .site-header .main-navigation {
 		width: 50%;
 	}
+	
+	/* positions the search icon properly in the search box*/
+	#masthead .site-search .widget_product_search form:before {
+		top: 1.75em;
+		left: .75em;
+		position: relative;
+	}
+	/*  resizes the search box*/
+	#masthead .site-search .widget_product_search input[type=search],#masthead .site-search .widget_product_search input[type=text] {
+		padding: .5em .5em .5em 2em;
+		line-height: 1;
+	}
+	
