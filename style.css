@@ -124,3 +124,10 @@ Template: storefront
 	/* changed widget-title color */
 	.widget-title {
 		color: black; }
+	
+	/* calendar customization */
+		#wp-calendar {
+		box-shadow: 5px 5px;
+		border: 1px solid;
+		padding: 10px; }
+		
