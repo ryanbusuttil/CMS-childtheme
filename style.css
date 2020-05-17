@@ -67,3 +67,23 @@ Template: storefront
 		position: absolute;
 		top: 137px;
 		right: 62px;	}
+	
+	/*** SINGLE GRID ITEM STYLING ***/
+	.woocommerce ul.products li.product {
+		text-align: center; /* centers titles and prices */
+		background: #f5f5f5; /* changes background color */
+		padding: 1em; /* adds space around entire product */
+		transition: all 0.2s;
+		-moz-transition: all 0.2s; 
+		-webkit-transition: all 0.2s; 	}	
+		
+	.woocommerce ul.products li.product:hover {
+		background: #fff; /* changes background color on hover */
+		box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1); /* adds shadow on hover */
+		-webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1); 
+		-moz-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);  }
+	
+	h2.woocommerce-loop-product__title,
+	.product .related h2 {
+		font-size: 19px !important;
+		color: #000; /* change color of product titles */	}	
