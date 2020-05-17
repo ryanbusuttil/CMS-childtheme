@@ -50,3 +50,20 @@ Template: storefront
 	/* changed colour of menu 2 hover to purple */
 	.secondary-navigation ul.menu a:hover {
 		color: #4344ba; }
+	
+	/* changed colour and font-size of widget area */	
+	.widget-area .widget {
+		color: #4344ba;
+		font-size: 1em;  }
+		
+	/* changed background-color, border-color and color of on sale icon from shop page */
+	.onsale {
+		background-color: #FFFFFF;
+		border-color: #FF0000;
+		color: #FF0000;	}
+		
+	/* changed position of product onsale icon from shop page */	
+	ul.products li.product .onsale {
+		position: absolute;
+		top: 137px;
+		right: 62px;	}
