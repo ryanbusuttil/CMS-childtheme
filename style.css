@@ -110,6 +110,17 @@ Template: storefront
 	/* customization of site-footer button */
 	.site-footer a:not(.button):not(.components-button) {
     	color: #fff;
-   	 padding-top: 0;
+   	padding-top: 0;
     	padding-bottom: 0;
     	background: #353535	}
+	
+	/* changed product-title color */
+	h1, h2, h3, h4, h5, h6, .wc-block-grid__product-title {
+    	color: red; 	}
+	
+	table:not( .has-background ) tbody td {
+   	 color: black; }
+	
+	/* changed widget-title color */
+	.widget-title {
+		color: black; }
