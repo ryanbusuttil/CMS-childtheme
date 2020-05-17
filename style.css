@@ -131,3 +131,13 @@ Template: storefront
 		border: 1px solid;
 		padding: 10px; }
 		
+	/* dropcap customization for shortcode */	
+	.dropcap {
+		display: block;
+		float: left;
+		font-size: 50px;
+		line-height: 40px;
+		margin: 0 5px 0 0;	}
+	
+}
+
